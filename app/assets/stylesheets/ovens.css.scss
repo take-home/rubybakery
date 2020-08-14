@@ -1,0 +1,18 @@
+// Place all the styles related to the ovens controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// implemented the mobile screen Prepare Cookie button appears first on page. 
+
+.oven-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @media screen and (max-width: 480px) and (orientation: portrait),
+    screen and (max-height: 480px) and (orientation: landscape) {
+    .btn-prepare {
+      order: -1;
+    }
+  }
+}
