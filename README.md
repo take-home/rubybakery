@@ -1,7 +1,7 @@
 # rubybakery
 
 1. Bug: "no fillings" text is never displayed when cookies have no fillings
-  - strategy: manipulate cookies params to cover the edge case
+- strategy: manipulate cookies params to cover the edge case
   
 2. Feature: Cookies should actually be cooked
    We lazily added to Cookie: def ready?; true; end
